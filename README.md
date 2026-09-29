@@ -80,37 +80,6 @@ Improving clinic resource utilization
 **Project Workflow**
 Raw CSV → Data Cleaning → MySQL → Exploratory SQL → Advanced SQL → Risk Scoring → SQL VIEW → Tableau → Interactive Dashboard
 
-**Dashboard**
-
-
-**Project Structure**
-Patients-No-Show-Analysis/
-│
-├── data/
-│   └── raw/
-|       └──KaggleV2-May-2016.csv
-|   └── Processed/
-│       └──Cleaned Data
-|
-├── sql/
-│    └──healthcare_analysis.sql
-│    └──v_appointment_risk.csv
-│    └──medicalappointment.csv
-│    └──Which neighborhoods have the highest risk.csv
-│    └──Patient-level risk scoring.csv
-│    └──Do SMS reminders help.csv
-│    └──Age groups.csv
-│    └──Does lead time matter.csv
-│    └──Does the day of the week matter.csv
-│    └──What's our overall no-show rate.csv
-│
-├── Tableau/
-│   └── tableau_dashboard.png
-│   └── Appointment No-Show Dashboard.pdf
-│   └── Patient_No_Show.twb
-│
-└── README.md
-
 
 **Conclusion**
 This project demonstrates an end-to-end data analytics workflow, from raw healthcare data preparation and SQL analysis to risk-based analysis and interactive dashboard development.
