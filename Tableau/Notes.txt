@@ -1,0 +1,1 @@
+I connected the exported medicalappointment.csv and the v_appointment_risk.csv file by the appointment ID
